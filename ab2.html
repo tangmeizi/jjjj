@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>新生训练营</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial;
+        padding: 10px;
+        background: #f1f1f1;
+      }
+
+      /* 头部标题 */
+      .header {
+        padding: 30px;
+        text-align: center;
+        background: white;
+        background: linear-gradient(135deg, #4bc0c8, #c779d0, #4bc0c8);
+      }
+
+      .header h1 {
+        font-size: 50px;
+      }
+
+      /* 导航条 */
+      .topnav {
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      /* 导航条链接 */
+      .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      /* 链接颜色修改 */
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+      /* 创建两列 */
+      /* Left column */
+      .leftcolumn {
+        float: left;
+        width: 75%;
+      }
+
+      /* 右侧栏 */
+      .rightcolumn {
+        float: left;
+        width: 25%;
+        background-color: #f1f1f1;
+        padding-left: 20px;
+      }
+
+      /* 图像部分 */
+      .fakeimg {
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        padding: 20px;
+      }
+
+      /* 文章卡片效果 */
+      .card {
+        background-color: white;
+        padding: 20px;
+        margin-top: 20px;
+      }
+
+      /* 列后面清除浮动 */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      /* 底部 */
+      .footer {
+        padding: 20px;
+        text-align: center;
+        background: #ddd;
+        margin-top: 20px;
+      }
+
+      /* 响应式布局 - 屏幕尺寸小于 800px 时，两列布局改为上下布局 */
+      @media screen and (max-width: 800px) {
+        .leftcolumn,
+        .rightcolumn {
+          width: 100%;
+          padding: 0;
+        }
+      }
+
+      /* 响应式布局 -屏幕尺寸小于 400px 时，导航等布局改为上下布局 */
+      @media screen and (max-width: 400px) {
+        .topnav a {
+          float: none;
+          width: 100%;
+        }
+      }
+       .center {
+        margin: auto;
+        width: 50%;
+        padding: 0px;
+      }
+    </style>
+    <link
+      href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <h2>柳州市第二十五中附小</h2>
+    </div>
+
+    <div class="topnav">
+      <a href="index.html">首页</a>
+      <a href="ab2.html">新生训练营</a>
+      <a href="aa1.html">英语大比拼</a>
+      <a href="#">学校风采</a>
+      <a href="#">研学之路</a>
+      <a href="ac3.html">暑假安全宣传栏</a>
+    </div>
+
+    <div class="row">
+      <div class="leftcolumn">
+        <div class="card">
+          <h2>
+            落实双减，提质增效，名师引路——记柳州市第二十五中附属小学梯级名师展示课活动
+          </h2>
+          <h5>2022 年 4 月 17日</h5>
+          <div class="fakeimg" style="height: 400px">
+            <!-- 轮播 -->
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+              <!-- 指示符 -->
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#demo"
+                  data-bs-slide-to="0"
+                  class="active"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#demo"
+                  data-bs-slide-to="1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#demo"
+                  data-bs-slide-to="2"
+                ></button>
+              </div>
+
+              <!-- 轮播图片 -->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="a6.jpg" class="d-block" style="width: 90%" />
+                </div>
+                <div class="carousel-item">
+                  <img src="a4.jpg" class="d-block" style="width: 90%" />
+                </div>
+                <div class="carousel-item">
+                  <img src="a3.jpg" class="d-block" style="width: 90%" />
+                </div>
+              </div>
+
+              <!-- 左右切换按钮 -->
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#demo"
+                data-bs-slide="prev"
+              >
+                <span class="carousel-control-prev-icon"></span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#demo"
+                data-bs-slide="next"
+              >
+                <span class="carousel-control-next-icon"></span>
+              </button>
+            </div>
+          </div>
+
+          <p>
+            经过一天半的训练，孩子们基本上已经成为一个“有模有样”的小学生啦！但还缺少课堂常规训练，掌握了课堂常规要求才是名副其实的小学生。
+          </p>
+          <p>
+            8月23日下午，新生训练营进行了课堂常规训练。这不，同学们正在认真听老师讲解课堂常规要求呢！
+          </p>
+
+          <p>经过训练，同学们能根据老师的指令完成相应的动作。</p>
+
+          <p>
+            开展一系列的课堂常规活动为的就是培养学生的良好学习习惯，这足以见证学校的用心良苦和对学生们习惯养成的重视！
+          </p>
+          <p>课堂常规训练结束后，全体师生集中小剧场举行结营仪式。</p>
+
+          <p>
+            结营仪式上，梁副校长对训练营里同学们的学习进行了总结，并祝贺同学们通过了小学生活的第一道“磨砺”，相信经过训练，同学们一定能很快适应小学生活。
+          </p>
+
+          <p>
+            结营仪式第二项，学校对训练营中表现突出的班级进行表彰和颁奖。祝贺各个获奖班级！
+          </p>
+
+          <p>
+            结营仪式第三项，罗副主任宣读了训练营获奖学生名单，各班学生代表上台领奖。
+          </p>
+
+          <p>结营仪式结束后，同学们回到教室，老师把奖状发到每个孩子手上。</p>
+
+          <p>
+            有奖状，肯定也少不了礼物，各班老师给同学们发送开营时照的照片作为纪念！
+          </p>
+
+          <p>
+            照片礼物可能还满足不了孩子们激动的心情，于是老师们拿出了最后的“杀手锏”——每人发一份小蛋糕作为奖励。孩子们拿着手上的蛋糕欢呼着，笑得更加灿烂了！
+          </p>
+
+          <p>
+            短短两天的新生训练营，一年级的小朋友们进行了常规训练，学会了礼貌问好、端正坐姿、安静倾听、队列安全等，参观了校园，认识了校徽、校宝、校歌，
+            参与了趣创想科技带来的创客课堂——亲手制作了木质小闹钟。
+          </p>
+          <p>
+            丰富的活动，让孩子们很快适应了新环境、熟悉了新伙伴。良好的开端是成功的一半，相信一年级的孩子们一定能在25中这片爱的沃土上茁壮成长，
+            成为幸福而自豪的25中附小的小学生！
+          </p>
+
+
+
+
+
+
+          
+         <div class="center">
+        <dibulan>
+          <p>版权所有：零海棠</p>
+          <p>
+            <a href="https://haitang2011-5gkny3gv0f63ae33-1312837920.tcloudbaseapp.com/index.html"
+              >我的网站</a>
+          </p>
+        </dibulan>
+      </div> 
+  </body>
+</html>

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>海棠创作工作室</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial;
+        padding: 10px;
+        background: #ffffff;
+      }
+
+      /* 头部标题 */
+      .header {
+        padding: 30px;
+        text-align: center;
+        background: rgb(255, 255, 255);
+        background: linear-gradient(135deg, #4bc0c8, #c779d0, #4bc0c8);
+        font-size: 1.6em;
+      line-height: 1.5;
+      letter-spacing: 0.034em;
+      font-family: "思源黑体"
+      }
+
+      .header h1 {
+        font-size: 50px;
+      }
+
+      /* 导航条 */
+      .topnav {
+        overflow: hidden;
+        background-color: #000000;
+      }
+
+      /* 导航条链接 */
+      .topnav a {
+        float: left;
+        display: block;
+        color: #ffffff;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      /* 链接颜色修改 */
+      .topnav a:hover {
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+      }
+
+      /* 创建两列 */
+      /* Left column */
+      .leftcolumn {
+        float: left;
+        width: 75%;
+        font-size: 1.6em;
+      line-height: 1.5;
+      letter-spacing: 0.034em;
+      }
+
+      /* 右侧栏 */
+      .rightcolumn {
+        float: left;
+        width: 25%;
+        background-color: #ffffff;
+        padding-left: 22px;
+        font-size: 1.6em;
+      line-height: 1.5;
+      letter-spacing: 0.034em;
+      }
+
+      /* 图像部分 */
+      .fakeimg {
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        padding: 20px;
+      }
+
+      /* 文章卡片效果 */
+      .card {
+        background-color: rgb(255, 255, 255);
+        padding: 20px;
+        margin-top: 20px;
+      }
+
+      /* 列后面清除浮动 */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      /* 底部 */
+      .footer {
+        padding: 20px;
+        text-align: center;
+        background: #ddd;
+        margin-top: 20px;
+          font-size: 1.6em;
+      line-height: 1.5;
+      letter-spacing: 0.034em;
+      }
+
+      /* 响应式布局 - 屏幕尺寸小于 800px 时，两列布局改为上下布局 */
+      @media screen and (max-width: 800px) {
+        .leftcolumn,
+        .rightcolumn {
+          width: 100%;
+          padding: 0;
+        }
+      }
+
+      /* 响应式布局 -屏幕尺寸小于 400px 时，导航等布局改为上下布局 */
+      @media screen and (max-width: 400px) {
+        .topnav a {
+          float: none;
+          width: 100%;
+        }
+      }
+      .center {
+        margin: auto;
+        width: 50%;
+        padding: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h2>柳州市第二十五中附小</h2>
+    </div>
+
+    <div class="topnav">
+      
+      <a href="index.html">首页</a>
+      <a href="ab2.html">新生训练营</a>
+      <a href="aa1.html">英语大比拼</a>
+      <a href="#">学校风采</a>
+      <a href="#">研学之路</a>
+      <a href="ac3.html">暑假安全宣传栏</a>
+     
+    </div>
+
+    <div class="row">
+      <div class="leftcolumn">
+        <div class="card">
+          <h2>学校的风采</h2>
+          <h5>2022 年 4 月 17日</h5>
+          <div class="fakeimg" style="height: 420px">
+            <video width="640" height="360" controls autoplay>
+              <source src="981.mp4" type="video/mp4" />
+              <object data="981.mp4" width="640" height="360"></object>
+            </video>
+          </div>
+          <p>柳州二十五中附小简介：</p>
+          <p>
+            柳州二十五中附小始终在努力构建适合每位学生学习成长、每位教师专业发展的和谐教育生态，坚持深化教育改革，优化素质教学，为学校开辟和寻找多种建设性的渠道。
+          </p>
+          <p>
+            柳州二十五中附小教师队伍深受党的教育和培养，并且受党和人民的委托和信赖，有较强的事业心和责任感，治学严谨，完善健全人格教育。
+          </p>
+          <p>
+            学校经过不断的发展，学校环境建设不断改善，教育教学设施也得到不断的补充和完善。
+          </p>
+          <p>
+            学校全面贯彻党的教育方针，坚持抓两支队伍建设，积极参加课程改革、校本教研等系列活动。近年，学校教学质量突出，办学区域影响力不断增强，学校自身发展态势向好。
+          </p>
+        </div>
+        <div class="card">
+          <h2>
+            展现学科智慧，献礼建党百年——记柳州市第二十五中附属小学学科竞赛之“英语单词”大比拼挑战赛
+          </h2>
+          <h5>2022 年 4 月 17日</h5>
+          <div class="fakeimg" style="height: 420px">
+            <img src="a5.jpg" alt="Pulpit rock" width="640" height="360" />
+          </div>
+        </div>
+        <p>
+          胜日寻芳泗水滨，无边光景一时新。在花开香满园的四月，校园的一草一木都充满生机，在充满新鲜活力和希望的春天，柳州市第二十五中附小的善美学子们勤学乐学，争分夺秒，为成为更好的自己而努力拼搏。
+        </p>
+        <p>
+          为激发自己学生的英语学习兴趣，丰富学习英语的教学途径，提高学生英语的综合能力，创造浓厚的英语学习氛围，柳州市第二十五中附小于4月28日组织开展英语学科单词竞赛活动。
+        </p>
+      </div>
+      <div class="rightcolumn">
+        <div class="card">
+          <h2>关于我</h2>
+          <div class="fakeimg" style="height: 270px">
+            <img src="a6.jpg" alt="Pulpit rock" width="160" height="145" />
+          </div>
+          <p>
+    柳州市第二十五中学附小期待你的加入</p>
+        </div>
+        <div class="card">
+          <h3>热门文章</h3>
+          <div class="fakeimg">
+            <p>
+              <img src="a4.jpg" alt="Pulpit rock" width="160" height="145" />
+            </p>
+          </div>
+          <div class="fakeimg">
+            <p>
+              <img src="a3.jpg" alt="Pulpit rock" width="160" height="145" />
+            </p>
+          </div>
+          <div class="fakeimg">
+            <p>
+              <img src="a2.jpeg" alt="Pulpit rock" width="160" height="145" />
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <h3>关注我</h3>
+          <p>嗨，我就是海棠，我自创的海棠工作室，目前只有我一个人，望志同道合的朋友们的加入。我来自于广西省柳州市二十五中附小的小学生，经历了二十天的努力，创作了我的学校个人网站。觉得不错的小伙伴记得点赞收藏哦。是对我最大的支持！</p>
+        </div>
+      </div>
+    </div>
+
+      <div class="center">
+        <dibulan>
+          <p>版权所有：零海棠</p>
+          <p>
+            <a href="https://haitang2011-5gkny3gv0f63ae33-1312837920.tcloudbaseapp.com/index.html"
+              >我的网站</a
+            >
+          </p>
+        </dibulan>
+      </div>
+    </div>
+  </body>
+</html>
